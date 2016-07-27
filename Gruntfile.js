@@ -197,6 +197,15 @@ module.exports = function (grunt) {
           '**/*'
         ],
         dest: 'docs/dist/'
+      },
+
+      html: {
+        expand: true,
+        cwd: 'src/',
+        src: [
+          '**'
+        ],
+        dest: 'dist'
       }
     },
 
@@ -365,6 +374,11 @@ module.exports = function (grunt) {
       testSubtasks.push('saucelabs-qunit');
     }
   }
+
+  // Copy files task
+  grunt.loadNpmTasks('grunt-contrib-copy');
+
+
   grunt.registerTask('test', testSubtasks);
 
   // JS distribution task.
@@ -383,7 +397,7 @@ module.exports = function (grunt) {
   grunt.registerTask('dist-css', ['sass-compile', 'exec:postcss', 'cssmin:core', 'cssmin:docs']);
 
   // Full distribution task.
-  grunt.registerTask('dist', ['clean:dist', 'dist-css', 'dist-js']);
+  grunt.registerTask('dist', ['clean:dist', 'dist-css', 'dist-js', 'copy:html']);
 
   // Default task.
   grunt.registerTask('default', ['clean:dist', 'test']);
