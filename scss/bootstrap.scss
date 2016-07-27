@@ -26,7 +26,6 @@
 @import "tables";
 @import "forms";
 @import "buttons";
-@import "rows";
 
 // Components
 @import "animation";
@@ -57,3 +56,35 @@
 // Utility classes
 @import "utilities";
 
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: $gray-lightest;
+}
+
+// General grid styling
+
+.row {
+  margin: 0;
+
+  &.page-container {
+    width: 100%;
+    height: calc(100% - 90px);
+    background-color: $gray-lighter;
+    padding: 30px 10px 0;
+  }
+}
+
+.col {
+  background-color: $gray-light;
+  height: auto;
+}
+
+.mobile-only {
+
+  .col {
+    min-height: 150px;
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+}
