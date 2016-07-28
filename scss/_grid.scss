@@ -46,14 +46,14 @@
   &.page-container {
     width: 100%;
     height: calc(100% - 90px);
-    //background-color: $gray-lighter;
+    background-color: $pink-01;
     padding: 30px 10px 60px;
 
     .col {
-      background-color: $gray-lighter;
+      //background-color: $gray-lighter;
       height: auto;
       min-height: 150px;
-      padding: 10px;
+      padding: 0 10px;
       margin: 10px 0;
 
       &.sidebar {

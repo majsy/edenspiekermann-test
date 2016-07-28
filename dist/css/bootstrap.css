@@ -8,10 +8,10 @@
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: #eceeef;
+  background-color: #f9bec6;
 }
 
-.footer .copy-01 {
+.footer .copy-02 {
   text-align: center;
   margin-bottom: 0;
 }
@@ -19,7 +19,7 @@
 .header-navbar {
   width: 100%;
   min-height: 80px;
-  background-color: #818a91;
+  background-color: #FD7C8E;
   line-height: 80px;
   text-align: center;
 }
@@ -539,6 +539,42 @@ output {
 
 [hidden] {
   display: none !important;
+}
+
+.heading-01,
+.heading-02,
+.heading-03,
+.copy-01 {
+  font-family: "Open sans", sans-serif;
+  color: #472323;
+}
+
+.heading-01 {
+  font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  .heading-01 {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 992px) {
+  .heading-01 {
+    font-size: 5em;
+  }
+}
+
+.heading-03 {
+  font-weight: 700;
+}
+
+.copy-01 {
+  font-weight: 400;
+}
+
+.copy-02 {
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -1713,14 +1749,14 @@ pre code {
 .row.page-container {
   width: 100%;
   height: calc(100% - 90px);
+  background-color: #FCE3DC;
   padding: 30px 10px 60px;
 }
 
 .row.page-container .col {
-  background-color: #eceeef;
   height: auto;
   min-height: 150px;
-  padding: 10px;
+  padding: 0 10px;
   margin: 10px 0;
 }
 
@@ -6444,6 +6480,6 @@ a.text-danger:focus, a.text-danger:hover {
 }
 
 html, body {
-  background-color: #f7f7f9;
+  background-color: #FCE3DC;
 }
 /*# sourceMappingURL=bootstrap.css.map */

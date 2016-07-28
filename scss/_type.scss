@@ -2,6 +2,38 @@
 // Headings
 //
 
+.heading-01,
+.heading-02,
+.heading-03,
+.copy-01 {
+  font-family: $font-open-sans;
+  color: $brown-02;
+}
+
+.heading-01 {
+  font-weight: 800;
+
+  @include media-breakpoint-up(md) {
+    font-size: 4em;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 5em;
+  }
+}
+
+.heading-03 {
+  font-weight: 700;
+}
+
+.copy-01 {
+  font-weight: 400;
+}
+
+.copy-02 {
+  font-weight: 300;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: $headings-margin-bottom;
