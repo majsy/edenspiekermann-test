@@ -1,4 +1,9 @@
 .sidebar {
-  background-color: $gray-light;
-
+  @include media-breakpoint-up(md) {
+    background-color: deepskyblue;
+    height: 100%;
+    margin: 10px 0;
+  }
 }
+
+

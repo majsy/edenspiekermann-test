@@ -5,26 +5,34 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 .footer {
-  position: absolute;
-  bottom: 0;
   height: 60px;
   width: 100%;
   line-height: 60px;
   background-color: #818a91;
 }
 
-.footer p {
+.footer .copy-01 {
+  text-align: center;
   margin-bottom: 0;
 }
 
 .header-navbar {
   width: 100%;
-  height: 90px;
-  background-color: #55595c;
+  min-height: 80px;
+  background-color: #818a91;
+  line-height: 80px;
 }
 
-.sidebar {
-  background-color: #818a91;
+.header-navbar .copy-01 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    background-color: deepskyblue;
+    height: 100%;
+    margin: 10px 0;
+  }
 }
 
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -1706,6 +1714,35 @@ pre code {
   }
   .offset-xl-11 {
     margin-left: 91.666667%;
+  }
+}
+
+.row {
+  margin: 0;
+}
+
+.row.page-container {
+  width: 100%;
+  height: calc(100% - 90px);
+  background-color: #eceeef;
+  padding: 30px 10px 60px;
+}
+
+.row.page-container .col {
+  background-color: #818a91;
+  height: auto;
+  min-height: 150px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.screen-only {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .screen-only {
+    display: block;
   }
 }
 
@@ -6373,30 +6410,6 @@ a.text-danger:focus, a.text-danger:hover {
 }
 
 html, body {
-  height: 100%;
-  width: 100%;
   background-color: #f7f7f9;
-}
-
-.row {
-  margin: 0;
-}
-
-.row.page-container {
-  width: 100%;
-  height: calc(100% - 90px);
-  background-color: #eceeef;
-  padding: 30px 10px 0;
-}
-
-.col {
-  background-color: #818a91;
-  height: auto;
-}
-
-.mobile-only .col {
-  min-height: 150px;
-  padding: 0 10px;
-  margin: 10px 0;
 }
 /*# sourceMappingURL=bootstrap.css.map */

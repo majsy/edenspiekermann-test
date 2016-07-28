@@ -1,12 +1,11 @@
 .footer {
-  position: absolute;
-  bottom: 0;
   height: 60px;
   width: 100%;
   line-height: 60px;
   background-color: $gray-light;
 
-  p {
+  .copy-01 {
+    text-align: center;
     margin-bottom: 0;
   }
 }

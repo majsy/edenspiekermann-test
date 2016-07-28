@@ -37,3 +37,32 @@
 @if $enable-grid-classes {
   @include make-grid-columns();
 }
+
+// Grid layout
+
+.row {
+  margin: 0;
+
+  &.page-container {
+    width: 100%;
+    height: calc(100% - 90px);
+    background-color: $gray-lighter;
+    padding: 30px 10px 60px;
+
+    .col {
+      background-color: $gray-light;
+      height: auto;
+      min-height: 150px;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  }
+}
+
+.screen-only {
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
