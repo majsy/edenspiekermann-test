@@ -1726,12 +1726,12 @@ pre code {
 
 .row.page-container .col.sidebar {
   min-height: 490px;
-  background-color: #818a91;
+  background-color: pink;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) {
   .row.page-container {
-    padding: 30px 0 60px 15px;
+    padding: 30px 50px 60px;
   }
 }
 
