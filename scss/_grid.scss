@@ -43,30 +43,16 @@
 .row {
   margin: 0;
 
-  &.page-container {
-    width: 100%;
+  .page-container {
     height: calc(100% - 90px);
-    background-color: $pink-01;
-    padding: 30px 10px 60px;
-
-    .col {
-      //background-color: $gray-lighter;
-      height: auto;
-      min-height: 150px;
-      padding: 0 10px;
-      margin: 10px 0;
-
-      &.sidebar {
-        min-height: 490px;
-        //background-color: $gray-light;
-        background-color: pink;
-      }
-    }
-
-    @include media-breakpoint-up(md) {
-      padding: 30px 50px 60px;
-    }
+    background-color: $pink-00;
+    margin: 0 10px 30px;
+    padding: 10px;
   }
+
+  //@include media-breakpoint-up(md) {
+  //  padding: 30px 50px 60px;
+  //}
 }
 
 .md-screen-only {

@@ -19,7 +19,6 @@
 .header-navbar {
   width: 100%;
   min-height: 80px;
-  background-color: #FD7C8E;
   line-height: 80px;
   text-align: center;
 }
@@ -870,8 +869,6 @@ pre code {
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .col-xs-1 {
@@ -1746,29 +1743,11 @@ pre code {
   margin: 0;
 }
 
-.row.page-container {
-  width: 100%;
+.row .page-container {
   height: calc(100% - 90px);
-  background-color: #FCE3DC;
-  padding: 30px 10px 60px;
-}
-
-.row.page-container .col {
-  height: auto;
-  min-height: 150px;
-  padding: 0 10px;
-  margin: 10px 0;
-}
-
-.row.page-container .col.sidebar {
-  min-height: 490px;
-  background-color: pink;
-}
-
-@media (min-width: 768px) {
-  .row.page-container {
-    padding: 30px 50px 60px;
-  }
+  background-color: #fdf0ec;
+  margin: 0 10px 30px;
+  padding: 10px;
 }
 
 .md-screen-only {
@@ -5134,7 +5113,7 @@ button.list-group-item-danger.active:hover {
 
 .list-group .list-item a {
   text-decoration: none;
-  color: #373a3c;
+  color: #FD7C8E;
 }
 
 .list-group .list-item a:hover {
