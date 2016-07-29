@@ -1759,40 +1759,16 @@ pre code {
   padding: 0 15px 30px;
 }
 
-@media (min-width: 768px) {
-  .row.main-container {
-    padding: 0 30px 30px;
-  }
-}
-
-@media (min-width: 992px) {
-  .row.main-container {
-    padding: 0 10px 50px;
-  }
-}
-
 .row .page-container {
   background-color: #fdf0ec;
   padding-bottom: 10px;
 }
 
-@media (min-width: 768px) {
-  .row .page-container {
-    padding: 20px;
-  }
-}
-
-.row .page-container.contact-image {
+.row .page-container.section-contact {
   padding: 30px;
 }
 
-@media (min-width: 768px) {
-  .row .page-container.contact-image {
-    padding: 0;
-  }
-}
-
-.row .page-container.contact-image .section-padding {
+.row .page-container.section-contact .section-padding {
   padding: 10px 0;
 }
 
@@ -1801,40 +1777,32 @@ pre code {
 }
 
 @media (min-width: 768px) {
+  .row.main-container {
+    padding: 0 30px 30px;
+  }
+  .row .page-container {
+    padding: 20px;
+  }
+  .row .page-container.section-contact {
+    padding: 20px;
+  }
+  .row .page-container.section-contact .section-padding {
+    padding: 0 0 20px 0;
+  }
+  .row .page-container.section-contact .section-image {
+    padding: 0 20px 0 0;
+  }
   .row .page-container .section-padding {
     padding: 10px 20px 0;
   }
-}
-
-@media (min-width: 768px) {
   .row .page-container .section-image {
     padding: 20px;
   }
 }
 
-@media (min-width: 768px) {
-  .sm-screen-only {
-    display: none;
-  }
-}
-
-.md-screen-only {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .md-screen-only {
-    display: block;
-  }
-}
-
-.lg-screen-only {
-  display: none;
-}
-
 @media (min-width: 992px) {
-  .lg-screen-only {
-    display: block;
+  .row.main-container {
+    padding: 0 10px 50px;
   }
 }
 
