@@ -549,6 +549,7 @@ output {
 }
 
 .heading-01 {
+  font-size: 2.3rem;
   font-weight: 800;
 }
 
@@ -1748,10 +1749,28 @@ pre code {
   margin: 0;
 }
 
+.row.container-padding {
+  padding: 0 15px 30px;
+}
+
+@media (min-width: 768px) {
+  .row.container-padding {
+    padding: 20px;
+  }
+}
+
 .row .page-container {
   height: calc(100% - 90px);
   background-color: #fdf0ec;
-  margin: 0 10px 30px;
+}
+
+@media (min-width: 768px) {
+  .row .page-container {
+    padding: 20px;
+  }
+}
+
+.row .page-container .section-padding {
   padding: 10px;
 }
 

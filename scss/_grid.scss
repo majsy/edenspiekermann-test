@@ -43,16 +43,29 @@
 .row {
   margin: 0;
 
+  &.container-padding {
+    padding: 0 15px 30px;
+
+    @include media-breakpoint-up(md) {
+      padding: 20px;
+    }
+  }
+
   .page-container {
     height: calc(100% - 90px);
     background-color: $pink-00;
-    margin: 0 10px 30px;
-    padding: 10px;
+
+    @include media-breakpoint-up(md) {
+      //margin: 0 20px 30px;
+      padding: 20px;
+    }
+
+    .section-padding {
+      padding: 10px;
+    }
   }
 
-  //@include media-breakpoint-up(md) {
-  //  padding: 30px 50px 60px;
-  //}
+
 }
 
 .md-screen-only {
