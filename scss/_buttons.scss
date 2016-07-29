@@ -186,16 +186,11 @@ input[type="button"] {
 // Customized buttons
 
 .btn-unicorn {
-  @include size(150px);
+  @include size(115px);
   padding: 0;
   border: 5px solid $pink-03;
-  margin: 0 10px;
+  margin: 10px !important;
   border-radius: 50% !important;
-
-  &:focus, &:active {
-    border: none !important;
-  }
-
 
   .img-responsive {
     @include size(100%);
