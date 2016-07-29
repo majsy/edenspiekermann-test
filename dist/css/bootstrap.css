@@ -1755,7 +1755,7 @@ pre code {
 
 @media (min-width: 768px) {
   .row.container-padding {
-    padding: 20px;
+    padding: 0 20px 30px;
   }
 }
 
@@ -1772,6 +1772,12 @@ pre code {
 
 .row .page-container .section-padding {
   padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .row .page-container .section-image {
+    padding: 20px;
+  }
 }
 
 .md-screen-only {
