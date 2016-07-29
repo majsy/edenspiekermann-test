@@ -65,6 +65,10 @@
 
     .section-padding {
       padding: 10px 10px 0;
+
+      @include media-breakpoint-up(md) {
+        padding: 10px 20px 0;
+      }
     }
 
     .section-image {
@@ -73,8 +77,13 @@
       }
     }
   }
+}
 
+.sm-screen-only {
 
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
 }
 
 .md-screen-only {

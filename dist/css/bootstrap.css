@@ -11,7 +11,7 @@
   background-color: #f9bec6;
 }
 
-.footer .copy-02 {
+.footer .copy-03 {
   text-align: center;
   margin-bottom: 0;
   color: #FCE3DC;
@@ -570,11 +570,16 @@ output {
   font-weight: 700;
 }
 
-.copy-01 {
+.copy-01,
+.copy-02 {
   font-weight: 400;
 }
 
 .copy-02 {
+  font-size: 3em;
+}
+
+.copy-03 {
   font-weight: 300;
 }
 
@@ -1781,8 +1786,20 @@ pre code {
 }
 
 @media (min-width: 768px) {
+  .row .page-container .section-padding {
+    padding: 10px 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
   .row .page-container .section-image {
     padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sm-screen-only {
+    display: none;
   }
 }
 
