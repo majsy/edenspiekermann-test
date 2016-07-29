@@ -141,6 +141,12 @@
       }
     }
 
+    &.contact-item {
+      display: block;
+      padding: 0;
+      color: $pink-04;
+    }
+
     @include media-breakpoint-up(md) {
       padding: 0 30px;
     }
