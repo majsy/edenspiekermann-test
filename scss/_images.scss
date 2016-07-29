@@ -5,6 +5,11 @@
 // and abandoned it in Bootstrap v3 because it breaks lots of third-party widgets (including Google Maps)
 // which weren't expecting the images within themselves to be involuntarily resized.
 // See also https://github.com/twbs/bootstrap/issues/18178
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
 .img-fluid {
   @include img-fluid();
 }

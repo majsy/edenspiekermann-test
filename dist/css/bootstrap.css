@@ -713,6 +713,11 @@ dl.row > dd + dt {
   clear: left;
 }
 
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
 .img-fluid, .carousel-inner > .carousel-item > img,
 .carousel-inner > .carousel-item > a > img {
   display: block;
@@ -1748,7 +1753,6 @@ pre code {
   background-color: #fdf0ec;
   margin: 0 10px 30px;
   padding: 10px;
-  border: 1px solid #ECB8AD;
 }
 
 .md-screen-only {
