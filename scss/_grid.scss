@@ -43,7 +43,7 @@
 .row {
   margin: 0;
 
-  &.container-padding {
+  &.main-container {
     padding: 0 15px 30px;
 
     @include media-breakpoint-up(md) {
@@ -57,10 +57,22 @@
 
   .page-container {
     background-color: $pink-00;
+    padding-bottom: 10px;
 
     @include media-breakpoint-up(md) {
-      //margin: 0 20px 30px;
       padding: 20px;
+    }
+
+    &.contact-image {
+      padding: 30px;
+
+      @include media-breakpoint-up(md) {
+        padding: 0;
+      }
+
+      .section-padding {
+        padding: 10px 0;
+      }
     }
 
     .section-padding {

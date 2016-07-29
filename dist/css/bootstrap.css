@@ -1755,30 +1755,45 @@ pre code {
   margin: 0;
 }
 
-.row.container-padding {
+.row.main-container {
   padding: 0 15px 30px;
 }
 
 @media (min-width: 768px) {
-  .row.container-padding {
+  .row.main-container {
     padding: 0 30px 30px;
   }
 }
 
 @media (min-width: 992px) {
-  .row.container-padding {
+  .row.main-container {
     padding: 0 10px 50px;
   }
 }
 
 .row .page-container {
   background-color: #fdf0ec;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {
   .row .page-container {
     padding: 20px;
   }
+}
+
+.row .page-container.contact-image {
+  padding: 30px;
+}
+
+@media (min-width: 768px) {
+  .row .page-container.contact-image {
+    padding: 0;
+  }
+}
+
+.row .page-container.contact-image .section-padding {
+  padding: 10px 0;
 }
 
 .row .page-container .section-padding {
