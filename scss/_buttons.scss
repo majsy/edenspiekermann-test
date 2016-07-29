@@ -174,3 +174,31 @@ input[type="button"] {
     width: 100%;
   }
 }
+
+.btn-primary {
+  &.focus {
+    &.active {
+         border: none !important;
+    }
+  }
+}
+
+// Customized buttons
+
+.btn-unicorn {
+  @include size(150px);
+  padding: 0;
+  border: 5px solid $pink-03;
+  margin: 0 10px;
+  border-radius: 50% !important;
+
+  &:focus, &:active {
+    border: none !important;
+  }
+
+
+  .img-responsive {
+    @include size(100%);
+  }
+
+}
