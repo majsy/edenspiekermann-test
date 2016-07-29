@@ -1748,6 +1748,7 @@ pre code {
   background-color: #fdf0ec;
   margin: 0 10px 30px;
   padding: 10px;
+  border: 1px solid #ECB8AD;
 }
 
 .md-screen-only {
