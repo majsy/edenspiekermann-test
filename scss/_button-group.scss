@@ -234,5 +234,9 @@
 }
 
 .button-container {
-  padding: 20px;
+  padding: 10px;
+
+  @include media-breakpoint-up(md) {
+    padding: 20px;
+  }
 }
