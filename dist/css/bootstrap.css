@@ -2999,8 +2999,8 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
-.btn-primary.focus.active {
-  border: none !important;
+.btn.focus, .btn.focus.active {
+  outline: none;
 }
 
 .btn-unicorn {

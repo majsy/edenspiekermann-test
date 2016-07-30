@@ -175,11 +175,11 @@ input[type="button"] {
   }
 }
 
-.btn-primary {
-  &.focus {
-    &.active {
-         border: none !important;
-    }
+// remove bootstrap button outline
+.btn {
+  &.focus,
+  &.focus.active {
+    outline: none;
   }
 }
 
