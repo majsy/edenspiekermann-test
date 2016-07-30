@@ -180,8 +180,20 @@ input[type="button"] {
   &.focus,
   &.focus.active {
     outline: none;
+    border-color: $pink-04;
   }
 }
+
+.btn {
+  .btn-primary {
+    &.focus,
+    &.focus.active,
+    &:hover {
+      border-color: $pink-04;
+    }
+  }
+}
+
 
 // Customized buttons
 
@@ -194,6 +206,11 @@ input[type="button"] {
 
   .img-responsive {
     @include size(100%);
+  }
+
+  @include media-breakpoint-up(md) {
+    @include size(140px);
+     border: 7px solid $pink-03;
   }
 
 }
