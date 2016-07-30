@@ -233,10 +233,17 @@
   }
 }
 
-.button-container {
-  padding: 10px;
+// Center buttons with flexbox
 
-  @include media-breakpoint-up(md) {
-    padding: 20px;
-  }
+.button-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-flow: column wrap;
+  flex-flow: row wrap;
+  -webkit-align-content: center;
+  align-content: center;
 }

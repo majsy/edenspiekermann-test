@@ -3403,7 +3403,24 @@ input[type="button"].btn-block {
 }
 
 .button-container {
-  padding: 20px;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .input-group {
