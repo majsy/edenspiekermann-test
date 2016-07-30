@@ -3005,14 +3005,9 @@ input[type="button"].btn-block {
 
 .btn.focus, .btn.focus.active {
   outline: none;
-  border-color: #FD7C8E;
 }
 
-.btn-primary.btn-unicorn.active {
-  border-color: white;
-}
-
-.btn-unicorn {
+.btn-primary.btn-unicorn {
   width: 115px;
   height: 115px;
   padding: 0;
@@ -3021,17 +3016,21 @@ input[type="button"].btn-block {
   border-radius: 50% !important;
 }
 
-.btn-unicorn:hover {
+.btn-primary.btn-unicorn:hover {
   border-color: #FD7C8E;
 }
 
-.btn-unicorn .img-responsive {
+.btn-primary.btn-unicorn.active {
+  border-color: #FD7C8E;
+}
+
+.btn-primary.btn-unicorn .img-responsive {
   width: 100%;
   height: 100%;
 }
 
 @media (min-width: 768px) {
-  .btn-unicorn {
+  .btn-primary.btn-unicorn {
     width: 140px;
     height: 140px;
     border: 7px solid #f9bec6;

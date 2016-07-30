@@ -180,39 +180,37 @@ input[type="button"] {
   &.focus,
   &.focus.active {
     outline: none;
-    border-color: $pink-04;
-  }
-}
-
-.btn-primary {
-
-  &.btn-unicorn {
-    &.active {
-      border-color: white;
-    }
   }
 }
 
 // Customized button
 
-.btn-unicorn {
-  @include size(115px);
-  padding: 0;
-  border: 5px solid $pink-03;
-  margin: 10px !important;
-  border-radius: 50% !important;
+.btn-primary {
+  &.btn-unicorn {
+    @include size(115px);
+    padding: 0;
+    border: 5px solid $pink-03;
+    margin: 10px !important;
+    border-radius: 50% !important;
 
-  &:hover {
-    border-color: $pink-04;
+    &:hover {
+      border-color: $pink-04;
+    }
+
+    &.active {
+      border-color: $pink-04;
+    }
+
+    .img-responsive {
+      @include size(100%);
+    }
+
+    @include media-breakpoint-up(md) {
+      @include size(140px);
+       border: 7px solid $pink-03;
+    }
   }
-
-  .img-responsive {
-    @include size(100%);
-  }
-
-  @include media-breakpoint-up(md) {
-    @include size(140px);
-     border: 7px solid $pink-03;
-  }
-
 }
+
+
+
