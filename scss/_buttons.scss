@@ -189,14 +189,14 @@ input[type="button"] {
   &.btn-unicorn {
     @include size(115px);
     padding: 0;
+    //border-width: 5px;
+    //border-color: $pink-03;
     border: 5px solid $pink-03;
     margin: 10px !important;
     border-radius: 50% !important;
+    transition: all 500ms ease;
 
-    &:hover {
-      border-color: $pink-04;
-    }
-
+    &:hover,
     &.active {
       border-color: $pink-04;
     }
@@ -207,7 +207,7 @@ input[type="button"] {
 
     @include media-breakpoint-up(md) {
       @include size(140px);
-       border: 7px solid $pink-03;
+       border-width: 7px;
     }
   }
 }
