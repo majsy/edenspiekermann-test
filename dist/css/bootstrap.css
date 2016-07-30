@@ -3008,10 +3008,6 @@ input[type="button"].btn-block {
   border-color: #FD7C8E;
 }
 
-.btn .btn-primary.focus, .btn .btn-primary.focus.active, .btn .btn-primary:hover {
-  border-color: #FD7C8E;
-}
-
 .btn-unicorn {
   width: 115px;
   height: 115px;
@@ -3019,6 +3015,11 @@ input[type="button"].btn-block {
   border: 5px solid #f9bec6;
   margin: 10px !important;
   border-radius: 50% !important;
+  background-color: #f9bec6;
+}
+
+.btn-unicorn:hover {
+  border-color: #FD7C8E;
 }
 
 .btn-unicorn .img-responsive {

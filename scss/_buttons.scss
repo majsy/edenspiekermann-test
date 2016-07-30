@@ -184,18 +184,7 @@ input[type="button"] {
   }
 }
 
-.btn {
-  .btn-primary {
-    &.focus,
-    &.focus.active,
-    &:hover {
-      border-color: $pink-04;
-    }
-  }
-}
-
-
-// Customized buttons
+// Customized button
 
 .btn-unicorn {
   @include size(115px);
@@ -203,6 +192,11 @@ input[type="button"] {
   border: 5px solid $pink-03;
   margin: 10px !important;
   border-radius: 50% !important;
+  background-color: $pink-03;
+
+  &:hover {
+    border-color: $pink-04;
+  }
 
   .img-responsive {
     @include size(100%);
