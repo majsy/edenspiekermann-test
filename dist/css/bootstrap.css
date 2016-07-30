@@ -3008,6 +3008,10 @@ input[type="button"].btn-block {
   border-color: #FD7C8E;
 }
 
+.btn-primary.btn-unicorn.active {
+  border-color: white;
+}
+
 .btn-unicorn {
   width: 115px;
   height: 115px;
@@ -3015,7 +3019,6 @@ input[type="button"].btn-block {
   border: 5px solid #f9bec6;
   margin: 10px !important;
   border-radius: 50% !important;
-  background-color: #f9bec6;
 }
 
 .btn-unicorn:hover {
