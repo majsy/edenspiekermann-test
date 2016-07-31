@@ -49,6 +49,18 @@
   text-align: center;
 }
 
+.row .page-container.section-form .description-container {
+  padding-top: 20px;
+}
+
+.row .page-container.section-form .description-container .heading-03 {
+  color: #FD7C8E;
+}
+
+.row .page-container.section-form .description-container .description {
+  text-align: center;
+}
+
 .row .page-container .section-padding {
   padding: 10px 10px 0;
 }

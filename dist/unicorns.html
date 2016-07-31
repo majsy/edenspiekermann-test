@@ -34,24 +34,42 @@
   <div class="col-lg-1 col-xl-2"></div>
   <div class="col-lg-10 col-xl-8">
     <section class="col-sm-12 page-container section-form">
-      <h2 class="heading-02">Which unicorn do you prefer?</h2>
+      <h2 class="heading-02">Which unicorn is your favorite?</h2>
         <div class="btn-group button-container text-sm-center" data-toggle="buttons">
           <label class="btn btn-primary btn-unicorn">
-            <input type="radio" name="options" id="option1" autocomplete="off">
+            <input type="radio" name="options" id="option1" autocomplete="off" onclick="showDescription">
             <img class="img-responsive img-fluid img-circle" src="../src/img/unicorn-3.png" alt="cute unicorn">
           </label>
           <label class="btn btn-primary btn-unicorn">
-            <input type="radio" name="options" id="option2" autocomplete="off">
+            <input type="radio" name="options" id="option2" autocomplete="off" onclick="showDescription">
             <img class="img-responsive img-fluid img-circle" src="../src/img/unicorn-4.jpg" alt="cute unicorn">
           </label>
           <label class="btn btn-primary btn-unicorn">
-            <input type="radio" name="options" id="option3" autocomplete="off">
+            <input type="radio" name="options" id="option3" autocomplete="off" onclick="showDescription">
             <img class="img-responsive img-fluid img-circle" src="../src/img/unicorn-5.png" alt="cute unicorn">
           </label>
           <label class="btn btn-primary btn-unicorn">
-            <input type="radio" name="options" id="option4" autocomplete="off">
+            <input type="radio" name="options" id="option4" autocomplete="off" onclick="showDescription">
             <img class="img-responsive img-fluid img-circle" src="../src/img/unicorn-6.png" alt="cute unicorn">
           </label>
+          <div class="col-sm-12 description-container text-sm-center">
+            <div class="description" id="unicorn1">
+              <h3 class="heading-03">My little unicorn</h3>
+              <p class="copy-01">Spreading stardust since the 80s.</p>
+            </div>
+            <div class="description" id="unicorn2">
+              <h3 class="heading-03">Pegasus</h3>
+              <p class="copy-01">Hercules' majestic unicorn buddy.</p>
+            </div>
+            <div class="description" id="unicorn3">
+              <h3 class="heading-03">Lady Rainicorn</h3>
+              <p class="copy-01">K-pop unicorn and royal transportation.</p>
+            </div>
+            <div class="description" id="unicorn4">
+              <h3 class="heading-03">Mr Wannabe</h3>
+              <p class="copy-01">Fake it til you make it.</p>
+            </div>
+          </div>
         </div>
     </section>
   </div>
