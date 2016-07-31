@@ -85,5 +85,25 @@
 <script src="../dist/js/jquery-3.1.0.min.js"></script>
 <script src="../dist/js/tether.min.js"></script>
 <script src="../dist/js/bootstrap.min.js"></script>
+
+<script>
+  (function() {
+    var unicorns = $('.btn-unicorn');
+    var descriptions = $('.description-container .description');
+
+    unicorns.each(function (index, unicorn) {
+
+      unicorn.addEventListener('click', function () {
+
+        descriptions.hide();
+        $(descriptions[index]).show();
+
+      });
+
+    });
+
+    descriptions.hide();
+  })();
+</script>
 </body>
 </html>
